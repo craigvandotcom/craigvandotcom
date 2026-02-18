@@ -2,44 +2,44 @@
 
 **AI Agentic Engineer** | Amsterdam
 
-I build AI agent systems that ship to production — multi-agent coordination, tool ecosystems, and autonomous workflows.
+I study and apply agentic engineering frameworks — [Kieran Klaassen's Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) and [Jeffrey Emanuel's Agentic Coding Flywheel](https://www.youtube.com/@JeffreyEmanuel) — to build real products with multi-agent workflows.
 
-## What I've Built
+## What I'm Building
 
-### Agent Mail — Multi-Agent Coordination Server
-HTTP + SQLite messaging server that lets AI agents coordinate work. File reservations prevent concurrent edit conflicts, thread-based conversations track context, inbox/outbox management routes tasks between agents.
+### Health Product Suite
+Four apps, all built using agentic development workflows:
 
-The hard problem in agentic systems isn't making one agent work — it's making many agents collaborate safely. This solves that.
+**[Body Compass](https://github.com/craigvandotcom/body-compass-app)** — Health tracking app with AI-powered food analysis. Next.js 15, TypeScript, Supabase, Capacitor iOS. 65+ components, Jest + Playwright E2E tests. The most mature project — production-ready.
 
-`Python` `HTTP/REST` `SQLite` `Git`
+**Unsit Your Back** — Spinal health and posture correction app. Full `.claude/` skill system with design system, browser testing, planning, and multi-agent code review workflows.
 
-### Personal AI Infrastructure (PAI)
-A complete operating system for AI-assisted development:
-- **24 CLI tools** (Gmail, Calendar, Tasks, Discord, Notion, YouTube, image generation, TTS, web scraping) — all with `--json` output for agent consumption
-- **3-tier context system** — progressive disclosure architecture that loads AI context efficiently across 17 domain skills, cutting token waste by 60%+
-- **Agent swarm orchestration** — spawn N parallel AI agents, coordinate via Agent Mail, track work through beads task system
-- **Automated plan refinement** — send plans to multiple AI models in parallel, synthesize feedback, iterate until convergence
+**Freedom of Movement** — Movement education platform based on my Biokinetics background. 12-week progressive course structure, exercise prescription system, session templates.
 
-Every tool is agent-first: structured output, proper exit codes, composable via Unix pipes.
+**Art of Stillness** — Meditation and mindfulness practice app. Completing the health systems triptych: eat, move, meditate.
+
+`Next.js` `TypeScript` `Supabase` `Capacitor` `Radix UI` `Playwright`
+
+### Agentic Engineering System (PAI)
+The infrastructure I built to develop all of the above:
+
+- **Swarm orchestration** — spawn N parallel AI agents in tmux sessions, coordinate work through task management and file reservations (based on Kieran's compound engineering patterns)
+- **8-step flywheel** — idea > plan > refine > beadify > execute > review > commit (adapted from Jeffrey Emanuel's methodology). Plans routinely 5,000+ lines — more detailed than the final code.
+- **Automated plan refinement** — send plans to 3-4 AI models in parallel, synthesize feedback, iterate until convergence
+- **24 CLI tools** — all with `--json` output for agent consumption. Gmail, Calendar, Tasks, Discord, Notion, YouTube, image generation, TTS, web scraping
+- **3-tier context system** — progressive disclosure architecture across 17 domain skills, cutting token waste by 60%+
+- **Beads task system** — atomic work units with graph-theory prioritization, designed for agent consumption (Rust CLI)
 
 `Python` `Rust` `Bash` `Claude Code SDK` `PM2` `MCP`
 
-### Body Compass — Health Tracking App
-Full-stack mobile app: Next.js 15 + TypeScript + Supabase + Capacitor iOS. 65+ components, AI-powered food analysis, comprehensive test suite (Jest, Playwright E2E).
-
-I ship products, not just infrastructure.
-
-`Next.js` `TypeScript` `Supabase` `Capacitor` `Radix UI`
-
 ### Content Automation Pipeline
-End-to-end publishing system: YouTube research + packaging, newsletter generation, X/Twitter thread creation, cross-platform distribution. AI agents handle research, drafting, and scheduling — I review and publish.
+End-to-end publishing: YouTube research + packaging, newsletter generation, X/Twitter thread creation. AI agents handle research, drafting, and scheduling — I review and publish.
 
 `Python` `Typefully API` `MailerLite` `YouTube API`
 
 ## Infrastructure
 
-- **PM2-managed services** — Telegram bot (mobile control center), custom scheduler (APScheduler), Agent Mail server. Auto-restart, memory limits, health checks.
-- **Cross-machine deployment** — Mac + Linux VM, portable configs, SSH key auth, memory management (16GB RAM + 4GB swap with process isolation)
+- **PM2-managed services** — Telegram bot (mobile control center), custom scheduler (APScheduler), background services. Auto-restart, memory limits, health checks.
+- **Cross-machine deployment** — Mac + Linux VM, portable configs, SSH key auth
 - **Dual scheduler** — native cron for system tasks + custom APScheduler for AI-driven jobs
 
 ## Background
@@ -51,7 +51,7 @@ End-to-end publishing system: YouTube research + packaging, newsletter generatio
 
 ## What I Care About
 
-Building systems where AI agents do real work — not chatbots, not demos. Multi-agent coordination, tool ecosystems, production reliability. The infrastructure layer that makes agentic AI actually useful.
+Applying agentic engineering frameworks to ship real products faster and better. Not AI theory — AI systems that coordinate, build, and deploy. The craft of turning multi-agent workflows into working software.
 
 ## Links
 
