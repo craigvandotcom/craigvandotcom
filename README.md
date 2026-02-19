@@ -15,6 +15,7 @@ The infrastructure I built to develop everything below:
 - **24 CLI tools** — all with `--json` output for agent consumption: Gmail, Calendar, Tasks, Discord, Notion, YouTube, image generation, TTS, web scraping
 - **3-tier context system** — progressive disclosure across 17 domain skills, cutting token waste by 60%+
 - **Automated plan refinement** — send architectural plans to 3-4 AI models in parallel, synthesize feedback, iterate until convergence
+- **[Expert Consensus](https://github.com/craigvandotcom/agent-compounds)** — open-source multi-model synthesis tool. Fan out one prompt to 9 flagship AI models, get one synthesized answer. Configurable panel via `panel.json`.
 
 `Python` `Rust` `Bash` `Claude Code SDK` `MCP` `PM2`
 
