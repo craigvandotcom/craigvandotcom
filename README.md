@@ -25,7 +25,7 @@ Intelligent test selection plugin for Vitest. Run only the tests affected by you
 
 `TypeScript` · `Vitest`
 
-### Body Compass *(private)*
+### [Body Compass](https://bodycompass.app) *(private repo)*
 Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright E2E tests. Production-ready consumer app built entirely with the agentic workflows above.
 
 `Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS`
