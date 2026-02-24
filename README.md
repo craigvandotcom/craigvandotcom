@@ -2,33 +2,54 @@
 
 **AI Agentic Engineer** | Amsterdam | Open to opportunities
 
-I build production AI agent systems — multi-agent coordination, tool ecosystems, and autonomous development workflows. I apply [Kieran Klaassen's Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) and [Jeffrey Emanuel's Agentic Coding Flywheel](https://www.youtube.com/@JeffreyEmanuel) to ship real products with AI agents.
+I build production AI agent systems — multi-agent coordination, tool ecosystems, and autonomous development workflows. I apply [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) and the [Agentic Coding Flywheel](https://www.youtube.com/@JeffreyEmanuel) to ship real products with AI agents.
+
+---
+
+## Active Projects
+
+### [Agent Compounds](https://github.com/craigvandotcom/agent-compounds)
+Agentic engineering toolkit for Claude Code. Drop into `.claude/` and go.
+
+- **2 skills** — [openrouter](https://github.com/craigvandotcom/agent-compounds/tree/main/skills/openrouter) (access 400+ AI models) and [expert-consensus](https://github.com/craigvandotcom/agent-compounds/tree/main/skills/expert-consensus) (fan out one prompt to multiple models, synthesize one answer)
+- **13 commands** — full development lifecycle: plan-init, bead-work, work-review, hygiene, and more
+- **Sub-agents** — specialized agents for planning, implementation, and review
+
+### [openrouter-cli](https://github.com/craigvandotcom/openrouter-cli)
+CLI tool for AI agents to access 400+ models via OpenRouter. One command, every model. Designed as infrastructure for agent workflows — gives any AI agent access to every major model through a single, scriptable interface.
+
+`pip install openrouter-cli` · `Python`
+
+### [vitest-affected](https://github.com/craigvandotcom/vitest-affected)
+Intelligent test selection plugin for Vitest. Run only the tests affected by your changes — uses dependency graph analysis to skip irrelevant tests and keep CI fast.
+
+`TypeScript` · `Vitest`
+
+### Body Compass *(private)*
+Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright E2E tests. Production-ready consumer app built entirely with the agentic workflows above.
+
+`Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS`
+
+---
+
+## In Planning
+
+**Freedom of Movement** · **Unsit Your Back** · **Art of Stillness** — health and movement apps built on my Biokinetics background. Architecture started, development next.
 
 ---
 
 ## Agentic Engineering System (PAI)
 
-The infrastructure I built to develop everything below:
+The infrastructure behind all of the above:
 
-- **Swarm orchestration** — spawn N parallel AI agents in tmux sessions, coordinate through file reservations and structured messaging
-- **6-step flywheel** — architect > gatekeeper review > Ralph loop (implement + test until acceptance criteria met) > code review > deploy > land the plane. Plans routinely 5,000+ lines, broken into atomic task specs (beads)
-- **24 CLI tools** — all with `--json` output for agent consumption: Gmail, Calendar, Tasks, Discord, Notion, YouTube, image generation, TTS, web scraping
+- **Swarm orchestration** — spawn N parallel AI agents, coordinate through file reservations and structured messaging
+- **6-step flywheel** — architect > gatekeeper review > implement + test loop > code review > deploy > land
+- **24 CLI tools** — Gmail, Calendar, Tasks, Discord, Notion, YouTube, image generation, TTS, web scraping — all with `--json` output for agent consumption
 - **3-tier context system** — progressive disclosure across 17 domain skills, cutting token waste by 60%+
-- **Automated plan refinement** — send architectural plans to 3-4 AI models in parallel, synthesize feedback, iterate until convergence
-- **[Expert Consensus](https://github.com/craigvandotcom/agent-compounds)** — open-source multi-model synthesis tool. Fan out one prompt to 9 flagship AI models, get one synthesized answer. Configurable panel via `panel.json`.
 
 `Python` `Rust` `Bash` `Claude Code SDK` `MCP` `PM2`
 
-## Health Product Suite
-
-Four apps, all built using the agentic workflows above:
-
-| App | What it does | Stack |
-|-----|-------------|-------|
-| **Body Compass** | Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright E2E tests. Production-ready. | Next.js 15, TypeScript, Supabase, Capacitor iOS |
-| **Unsit Your Back** | Spinal health and posture correction. Multi-agent code review workflows, design system, automated browser testing. | Next.js, TypeScript, Radix UI, Playwright |
-| **Freedom of Movement** | Movement education platform. 12-week progressive course structure, exercise prescription system. Built on my Biokinetics background. | Next.js, TypeScript, Supabase |
-| **Art of Stillness** | Meditation and breathwork practice. Guided session engine, progress tracking. | Next.js, TypeScript, Supabase |
+---
 
 ## Background
 
@@ -36,7 +57,7 @@ Four apps, all built using the agentic workflows above:
 
 **BSc Hons Biokinetics** — University of the Witwatersrand. Clinical exercise science — the domain knowledge behind the health apps.
 
-**Adyen** — Technical Support Engineer. Payment terminal integrations, API debugging, network trace analysis. Production systems where failures have real consequences.
+**Adyen** — Technical Support Engineer. Payment terminal integrations, API debugging, network trace analysis.
 
 **Self-taught engineering** — CS50 (Harvard), Data Engineering with Python (DataCamp). Then built everything above.
 
