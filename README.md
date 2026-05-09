@@ -22,7 +22,7 @@ Mobility training app — adaptive daily sessions across the major joint systems
 
 `Next.js` · `TypeScript` · `Supabase` · `Capacitor` · *In development*
 
-### Art of Stillness *(private repo)*
+### Art Still *(private repo)*
 Real-time biofeedback meditation — camera-based stillness sensing with reactive audio synthesis. Native plugin layer for hardware-class workloads: ARKit + Apple Vision (iOS), CameraX + ML Kit + MediaPipe (Android), AVAudioEngine / Oboe for sub-5ms audio driven by per-frame motion signals.
 
 `Next.js` · `TypeScript` · `Capacitor` · `Swift` · `Kotlin` · `ARKit` · `MediaPipe` · *Prototypes shipped, production scaffolding*
