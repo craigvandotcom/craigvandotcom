@@ -12,7 +12,7 @@ Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright
 
 `Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS` · *Production*
 
-### Unsit Your Back *(private repo)*
+### Unsit *(private repo)*
 12-week structured program for desk-bound back recovery — daily exercise prescriptions and progress tracking, rooted in clinical biokinetics practice.
 
 `Next.js 16` · `TypeScript` · `Supabase` · `Capacitor` · *Scaffolding*
