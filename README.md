@@ -7,22 +7,22 @@ Building **[neoMeta](https://neometa.app)** — a health portfolio for sovereign
 
 ## The Portfolio
 
-### [Body Compass](https://bodycompass.app) *(private repo)*
+### [Body Compass](https://bodycompass.app)
 Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright E2E. Production iOS app, built end-to-end with the agentic engineering system below.
 
 `Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS` · *Production*
 
-### [Unsit](https://unsit.app) *(private repo)*
+### [Unsit](https://unsit.app)
 12-week structured program for desk-bound back recovery — daily exercise prescriptions and progress tracking, rooted in clinical biokinetics practice.
 
 `Next.js 16` · `TypeScript` · `Supabase` · `Capacitor` · *Scaffolding*
 
-### [Move Free](https://movefreedom.app) *(private repo)*
+### [Move Free](https://movefreedom.app)
 Mobility training app — adaptive daily sessions across the major joint systems, with clinically grounded progression.
 
 `Next.js 15` · `TypeScript` · `@neometa/brand` · `Capacitor` *(planned)* · *In development*
 
-### [Art Still](https://artstill.app) *(private repo)*
+### [Art Still](https://artstill.app)
 Real-time biofeedback meditation — camera-based stillness sensing with reactive audio synthesis. Native plugin layer for hardware-class workloads: ARKit + Apple Vision (iOS), CameraX + ML Kit + MediaPipe (Android), AVAudioEngine / Oboe for sub-5ms audio driven by per-frame motion signals.
 
 `Next.js 15` · `TypeScript` · `Capacitor` · `Swift` · `Kotlin` · `ARKit` · `MediaPipe` · *Prototypes shipped, production scaffolding*
@@ -47,11 +47,6 @@ Influences: [Compound Engineering](https://github.com/EveryInc/compound-engineer
 ## Open Source
 
 Tools spun out of the engineering system, useful on their own:
-
-### [@neometa/brand](https://github.com/craigvandotcom/neometa-brand)
-The shared brand system for the neoMeta health portfolio — pillar-color tokens (eat / move / meditate / signal), neutrals, typography, motion, voice rules. Tailwind preset + design tokens. Source of truth: `brand-system.md`.
-
-`TypeScript` · `Tailwind preset` · `MIT`
 
 ### [Agent Compounds](https://github.com/craigvandotcom/agent-compounds)
 Agentic engineering toolkit for Claude Code — 2 skills, 13 commands, sub-agents. Drop into `.claude/` and go.
