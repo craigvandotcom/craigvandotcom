@@ -12,17 +12,17 @@ Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright
 
 `Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS` · *Production*
 
-### [Unsit](https://unsit.app) — [code →](https://github.com/craigvandotcom/unsit-app)
+### [Unsit](https://unsit.app) *(private repo)*
 12-week structured program for desk-bound back recovery — daily exercise prescriptions and progress tracking, rooted in clinical biokinetics practice.
 
 `Next.js 16` · `TypeScript` · `Supabase` · `Capacitor` · *Scaffolding*
 
-### [Move Free](https://movefreedom.app) — [code →](https://github.com/craigvandotcom/movefreedom-app)
+### [Move Free](https://movefreedom.app) *(private repo)*
 Mobility training app — adaptive daily sessions across the major joint systems, with clinically grounded progression.
 
 `Next.js 15` · `TypeScript` · `@neometa/brand` · `Capacitor` *(planned)* · *In development*
 
-### [Art of Stillness](https://artstill.app) — [code →](https://github.com/craigvandotcom/artstill-app)
+### [Art Still](https://artstill.app) *(private repo)*
 Real-time biofeedback meditation — camera-based stillness sensing with reactive audio synthesis. Native plugin layer for hardware-class workloads: ARKit + Apple Vision (iOS), CameraX + ML Kit + MediaPipe (Android), AVAudioEngine / Oboe for sub-5ms audio driven by per-frame motion signals.
 
 `Next.js 15` · `TypeScript` · `Capacitor` · `Swift` · `Kotlin` · `ARKit` · `MediaPipe` · *Prototypes shipped, production scaffolding*
