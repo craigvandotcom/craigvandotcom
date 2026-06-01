@@ -8,9 +8,9 @@ Building **[neoMeta](https://neometa.app)** — a health portfolio for sovereign
 ## The Portfolio
 
 ### [Body Compass](https://bodycompass.app)
-Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright E2E. Production iOS app, built end-to-end with the agentic engineering system below.
+Health tracking with AI-powered food analysis. 65+ components, Jest + Playwright E2E. Live web app with iOS submitted to the App Store, built end-to-end with the agentic engineering system below.
 
-`Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS` · *Production*
+`Next.js 15` · `TypeScript` · `Supabase` · `Capacitor iOS` · *Web live · iOS in review*
 
 ### [Unsit](https://unsit.app)
 12-week structured program for desk-bound back recovery — daily exercise prescriptions and progress tracking, rooted in clinical biokinetics practice.
@@ -40,7 +40,7 @@ Four apps as one person requires leverage. The system below is what makes that p
 
 `Python` · `Rust` · `Bash` · `Claude Code SDK` · `MCP` · `PM2`
 
-Influences: [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin), the [Agentic Coding Flywheel](https://www.youtube.com/@JeffreyEmanuel).
+Influences: [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin), the [Agentic Coding Flywheel](https://agent-flywheel.com).
 
 ---
 
